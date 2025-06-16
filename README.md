@@ -47,7 +47,7 @@ data/
 
 ├── mnistm_data.hkl             # MNIST-M images（traning + test + validation）
 
-#### 4. Start Training.
+#### 4. Start Training and get the [trainingg.log](trainingg.log).
 
 ```shell
 python model.py
