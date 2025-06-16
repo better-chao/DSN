@@ -45,7 +45,7 @@ The script will automatically create a data directory and generate mnist_data_la
 
 data/
 
-├── mnist_data_label.hkl        # MNIST labels（one-hot, shared with MNIST-M）
+├── mnist_data_label.hkl        # MNIST labels（training + test, one-hot, shared with MNIST-M）
 
 ├── mnist_data.hkl              # MNIST images（training + test）
 
