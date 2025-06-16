@@ -17,8 +17,11 @@
 
 ## Usage
 Generate training and testing datasets.
+
 `create_mnistm.py`
+
 Start Training.
+
 `python model.py`
 
 **Note that this model is very sensitive to the batch_size, our implementation cannot perform as perfect as the
