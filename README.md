@@ -16,13 +16,13 @@
 ![model](./extra/model.jpg)
 
 ## Usage
-
+Generate training and testing datasets.
+`create_mnistm.py`
+Start Training.
 `python model.py`
 
-**Note that this model is very sensitive to the loss weight, our implementation cannot perform as perfect as the
-original paper, so be careful when you tune parameters for other datasets. Moreover, this model may not be suitable
-for real nature image, cause the private and shared feature of nature image are more complicated, so that *difference 
-loss* cannot adapt well** 
+**Note that this model is very sensitive to the batch_size, our implementation cannot perform as perfect as the
+original paper, so be careful when you tune parameters for other datasets.** 
 
 ## Result
 
