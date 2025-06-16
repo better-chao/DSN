@@ -58,5 +58,5 @@ original paper, so be careful when you tune parameters for other datasets.**
 
 ## Result
 
-We only conduct the experiments from mnist to mnist_m, the target accuracy of our implementation is about 86% (original
-paper ~83%).
+We only conduct the experiments from mnist to mnist_m, the target accuracy of our implementation is about 85.8% (original
+paper ~83.2%).
