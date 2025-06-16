@@ -18,7 +18,7 @@
 ## Usage
 Generate training and testing datasets.
 
-`create_mnistm.py`
+`python create_mnistm.py`
 
 Start Training.
 
