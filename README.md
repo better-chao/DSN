@@ -30,6 +30,8 @@ b. Install other packets as followings.
 - torch                1.12.1
 - torchvision          0.13.1
 
+The main purpose of installing TensorFlow here is to leverage its interfaces for downloading and loading the MNIST dataset, while the network training and testing are completely implemented using PyTorch. It should also be noted that the versions of TensorFlow and Protobuf need to be configured as mentioned above, otherwise these two packages are prone to conflicting errors.
+
 #### 2. Download [BSR_bsds500.tgz](https://drive.google.com/file/d/1gSUgdH1MdPZjGreUa8COnuem5pUTp8iA/view?usp=drive_link) and place it in the main directory.
 
 #### 3. Generate training and testing datasets.
