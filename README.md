@@ -22,7 +22,3 @@ loss* cannot adapt well**
 We only conduct the experiments from mnist to mnist_m, the target accuracy of our implementation is about 77% (original
 paper ~83%), and some results are shown as follows, from left to right: recovery from shared+private, shared and private
 features.
-
-![mnist](./extra/mnist.jpg)
-
-![mnist_m](./extra/mnist_m.jpg)
