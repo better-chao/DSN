@@ -40,11 +40,12 @@ python create_mnistm.py
 The script will automatically create a data directory and generate mnist_data_label.hkl, mnist_data.hkl, and mnistm_data.hkl in this directory for training and testing.
 
 data/
-├── mnist_data_label.hkl     # MNIST labels（one-hot, shared with MNIST-M）
 
-├── mnist_data.hkl           # MNIST images（training + test）
+├── mnist_data_label.hkl        # MNIST labels（one-hot, shared with MNIST-M）
 
-├── mnistm_data.hkl          # MNIST-M images（traning + test + validation）
+├── mnist_data.hkl              # MNIST images（training + test）
+
+├── mnistm_data.hkl             # MNIST-M images（traning + test + validation）
 
 #### 4. Start Training.
 
