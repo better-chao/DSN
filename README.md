@@ -30,7 +30,7 @@ b. Install other packets as followings.
 - torch                1.12.1
 - torchvision          0.13.1
 
-#### 2. Download BSR_bsds500.tgz[link](https://drive.google.com/file/d/1gSUgdH1MdPZjGreUa8COnuem5pUTp8iA/view?usp=drive_link) and place it in the main directory.
+#### 2. Download [BSR_bsds500.tgz](https://drive.google.com/file/d/1gSUgdH1MdPZjGreUa8COnuem5pUTp8iA/view?usp=drive_link) and place it in the main directory.
 
 #### 3. Generate training and testing datasets.
 
