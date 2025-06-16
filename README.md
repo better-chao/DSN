@@ -8,7 +8,7 @@
 
 ## Notes
 
-**This is a Pytorch implementation of the Domain Separation Network [Arxiv](https://arxiv.org/abs/1608.06019). There have been multiple implementations of this article on GitHub, but most of them are based on TensorFlow with poor readability. The few PyTorch-based implementations have extremely brief documentation, making it difficult to start training and reproduce the metrics in the paper. This project provides a PyTorch implementation with clear steps, facilitating everyone to reproduce the results.**
+This is a Pytorch implementation of the **Domain Separation Network** [Arxiv](https://arxiv.org/abs/1608.06019). There have been multiple implementations of this article on GitHub, but most of them are based on TensorFlow with poor readability. The few PyTorch-based implementations have extremely brief documentation, making it difficult to start training and reproduce the metrics in the paper. This project provides a PyTorch implementation with clear steps, facilitating everyone to reproduce the results.
 
 ## Get Started
 
@@ -31,8 +31,7 @@ b. Install other packets as followings.
 - torch                1.12.1
 - torchvision          0.13.1
 
-
-**The main purpose of installing TensorFlow here is to leverage its interfaces for downloading and loading the MNIST dataset, while the network training and testing are completely implemented using PyTorch. It should also be noted that the versions of TensorFlow and Protobuf need to be configured as mentioned above, otherwise these two packages are prone to conflicting errors.**
+The main purpose of installing TensorFlow here is to leverage its interfaces for downloading and loading the MNIST dataset, while the network training and testing are completely implemented using PyTorch. It should also be noted that the versions of TensorFlow and Protobuf need to be configured as mentioned above, otherwise these two packages are prone to conflicting errors.
 
 
 #### 2. Download [BSR_bsds500.tgz](https://drive.google.com/file/d/1gSUgdH1MdPZjGreUa8COnuem5pUTp8iA/view?usp=drive_link) and place it in the main directory.
