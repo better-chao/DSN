@@ -1,5 +1,5 @@
 <div align="center">
-<h3>[NeurIPS2016] Domain Separation Network</h3>
+<h1>[NeurIPS2016] Domain Separation Network</h1>
 </div>
 
 <div align="center">
