@@ -11,7 +11,7 @@ This is a Pytorch implementation of the Domain Separation Network [Arxiv](https:
 
 ## Get Started
 
-#### 1. Please follow these steps to install DSN.
+#### 1. Please follow these steps to create environment.
 
 a. Create a conda virtual environment and activate it.
 
@@ -37,6 +37,12 @@ b. Install other packets as followings.
 ```shell
 python create_mnistm.py
 ```
+The script will automatically create a data directory and generate mnist_data_label.hkl, mnist_data.hkl, and mnistm_data.hkl in this directory for training and testing.
+
+data/
+├── mnist_data_label.hkl     # MNIST labels（one-hot, shared with MNIST-M）
+├── mnist_data.hkl           # MNIST images（training + test）
+└── mnistm_data.hkl          # MNIST-M images（traning + test + validation）
 
 #### 4. Start Training.
 
