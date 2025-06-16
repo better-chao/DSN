@@ -1,6 +1,26 @@
+<div align="center">
+<h3>[NeurIPS2016] Domain Separation Network</h3>
+</div>
+
+<div align="center">
+  <img src="extra/model.jpg" width="800"/>
+</div><br/>
+
+## Notes
 This is a Pytorch implementation of the Domain Separation Network [Arxiv](https://arxiv.org/abs/1608.06019). There have been multiple implementations of this article on GitHub, but most of them are based on TensorFlow with poor readability. The few PyTorch-based implementations have extremely brief documentation, making it difficult to start training and reproduce the metrics in the paper. This project provides a PyTorch implementation with clear steps, facilitating everyone to reproduce the results.
 
-## Environment
+## Get Started
+
+#### 1. Please follow these steps to install DSN.
+
+a. Create a conda virtual environment and activate it.
+
+```shell
+conda create -n dsn python=3.7 -y
+conda activate dsn
+```
+b. Install other packets as followings.
+
 - numpy                1.21.5
 - protobuf             3.20.0
 - scikit-image         0.19.3
@@ -10,18 +30,17 @@ This is a Pytorch implementation of the Domain Separation Network [Arxiv](https:
 - torch                1.12.1
 - torchvision          0.13.1
 
-## Network Structure
+#### 2. Generate training and testing datasets.
 
-![model](./extra/model.jpg)
+```shell
+python create_mnistm.py
+```
 
-## Usage
-Generate training and testing datasets.
+#### 3. Start Training.
 
-`python create_mnistm.py`
-
-Start Training.
-
-`python model.py`
+```shell
+python model.py
+```
 
 **Note that this model is very sensitive to the batch_size, our implementation cannot perform as perfect as the
 original paper, so be careful when you tune parameters for other datasets.** 
